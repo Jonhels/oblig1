@@ -49,13 +49,37 @@ article {
 
 .contentbox img {
     width: 200px;
+    height: 200px;
     border-radius: 10px;
     margin-right: 25px;
 }
 
-.contentbox p {
+.contentbox p,
+ol,
+blockquote,
+.ul-list {
     display: inline-block;
-    position: relative;
     max-width: 300px;
-    bottom: 95px;
+}
+
+blockquote,
+.ul-list {
+    position: relative;
+}
+
+blockquote,
+.ul-list {
+    bottom: 90px;
+}
+
+.small-ul {
+    bottom: 145px;
+}
+
+.contact {
+    list-style: none;
+}
+
+.img-description {
+    font-size: small;
 }
