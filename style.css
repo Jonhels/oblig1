@@ -61,21 +61,34 @@ article {
     text-align: center;
 }
 
-.contentbox-bigger img {
+.figureshowcase img {
     max-width: 400px;
 }
 
 .contentbox img {
     width: 200px;
     height: 200px;
+    margin-right: 20px;
 }
 
+.contentbox img,
 .contentbox-bigger img,
-.contentbox img {
+.figureshowcase img {
     border-radius: 10px;
+}
+
+.contentbox-bigger img {
     margin-right: 25px;
 }
 
+.figureshowcase img {
+    width: 220px;
+}
+
+.figureshowcase,
+.contentbox-bigger p {
+    margin: 20px 10%;
+}
 
 .contentbox p,
 ol,
