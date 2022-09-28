@@ -90,6 +90,10 @@ article {
     margin: 20px 10%;
 }
 
+.aboutfigure img{
+    width: 100%;
+}
+
 .contentbox p,
 ol,
 blockquote,
