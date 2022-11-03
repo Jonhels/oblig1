@@ -31,6 +31,19 @@ article {
     margin: 2% 13%;
 }
 
+.contentbox,
+.contentbox-bigger {
+    box-shadow: 2px 2px 5px 1px #6d72743b;
+    border-radius: 5px;
+    padding: 10px 10px 10px 20px;
+    margin: 20px 50px 0 0;
+}
+
+/*  
+    Inline-block on contentbox for responsive ui.
+    Added this to show that inline-block is a nice tool to have, but only in certain circumstances like contentbox gives us given contentbox width and style.
+*/
+
 .contentbox {
     height: 300px;
     width: 550px;
@@ -41,17 +54,44 @@ article {
     display: inline-block;
 }
 
-.contentbox h2 {
+.contentbox h2,
+.contentbox-bigger h2 {
     font-size: 1.3em;
     margin-bottom: 20px;
     text-align: center;
 }
 
+.figureshowcase img {
+    max-width: 400px;
+}
+
 .contentbox img {
     width: 200px;
     height: 200px;
+    margin-right: 20px;
+}
+
+.contentbox img,
+.contentbox-bigger img,
+.figureshowcase img {
     border-radius: 10px;
+}
+
+.contentbox-bigger img {
     margin-right: 25px;
+}
+
+.figureshowcase img {
+    width: 220px;
+}
+
+.figureshowcase,
+.contentbox-bigger p {
+    margin: 20px 10%;
+}
+
+.aboutfigure img{
+    width: 100%;
 }
 
 .contentbox p,
